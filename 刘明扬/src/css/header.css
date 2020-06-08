@@ -1,0 +1,38 @@
+header .bot {
+  height: 70px;
+}
+header .fix {
+  height: 70px;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+header .fix .header_logo {
+  padding-top: 9px;
+  vertical-align: middle;
+  float: left;
+}
+header .fix .header_logo img {
+  max-height: 54px;
+  max-width: 232px;
+}
+header .fix .header_nav {
+  float: right;
+  padding: 0 20px;
+  line-height: 70px;
+}
+header .fix .header_nav ul {
+  text-align: right;
+}
+header .fix .header_nav ul > li {
+  display: inline-block;
+  margin-left: 20px;
+  zoom: 1;
+}
+header .fix .header_nav ul > li > a {
+  color: #666;
+  display: block;
+  padding: 0px 5px;
+}

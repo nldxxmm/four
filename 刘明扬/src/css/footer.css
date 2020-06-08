@@ -1,0 +1,51 @@
+footer {
+  padding: 80px 0;
+}
+footer .columns {
+  padding-bottom: 10px;
+  width: 180px;
+}
+footer .foot_logo > img {
+  width: 80%;
+  display: block;
+}
+footer .foot_logo {
+  float: left;
+}
+footer .foot_about {
+  float: right;
+}
+footer .foot_about ul li {
+  float: right;
+}
+footer .foot_about ul li div {
+  margin: 5px;
+}
+footer .foot_about ul li div img {
+  height: 20px;
+}
+footer .columnr {
+  float: right;
+}
+
+footer .item .p1 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 2.8;
+}
+footer .item .itemul {
+  padding-left: 40px;
+}
+footer .item .itemul li {
+  font-size: 19px;
+  list-style: disc;
+  line-height: 1.8;
+}
+footer .item .itemul li a {
+  color: #ff6f22;
+}
+footer .foot-bottom p {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}

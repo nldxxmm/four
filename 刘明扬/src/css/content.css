@@ -1,0 +1,117 @@
+section ul li.s-section {
+  padding-bottom: 55px;
+  position: relative;
+}
+section ul li.s-section .artic {
+  margin: 30px 0;
+  text-align: center;
+}
+section ul li.s-section:nth-child(1) .banner {
+  height: 296px;
+  width: 100%;
+  background: url(../img/banner.jpg) no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  z-index: 3;
+}
+section ul li.s-section:nth-child(1) .banner .contain_txt {
+  margin: 0 12px 10px 12px;
+  width: 100%;
+}
+section ul li.s-section:nth-child(1) .banner .contain_txt .p1 {
+  font-size: 34px;
+  font-weight: 900;
+  margin: 0 auto;
+  line-height: 3.2;
+}
+section ul li.s-section:nth-child(2) .column div img {
+  width: 100%;
+  height: 100%;
+}
+section ul li.s-section:nth-child(2) .column .txt {
+  margin-bottom: 10px;
+}
+section ul li.s-section:nth-child(2) .column .txt p {
+  font-size: 20px;
+  color: #4bf;
+  line-height: 1.7;
+}
+section ul li.s-section:nth-child(2) .column > h1 {
+  color: #ff6f22;
+  font-size: 36px;
+  font-weight: 700;
+}
+section ul li.s-section:nth-child(2) .button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section ul li.s-section:nth-child(2) .button-group a {
+  background: #32b3fb;
+  font-size: 24px;
+  padding: 24px 44px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 auto;
+  text-decoration: none;
+  zoom: 1;
+}
+section ul li.s-section:nth-child(2)::after {
+  background: url(../img/index-cont-hr.png) no-repeat 50%;
+  background-size: contain;
+  content: " ";
+  display: block;
+  height: 10px;
+  left: 0;
+  margin: 60px auto 0;
+  max-width: 94%;
+  position: absolute;
+  right: 0;
+  width: 1040px;
+}
+section ul li.s-section:nth-child(3) .artic.ss {
+  font-weight: 700;
+  line-height: 1.7;
+}
+section ul li.s-section:nth-child(3) .artic.ss > .p1 {
+  font-size: 36px;
+  color: #32b3fb;
+}
+section ul li.s-section:nth-child(3) .artic.ss > .p2 {
+  font-size: 20px;
+  color: #ff6f22;
+}
+section ul li.s-section:nth-child(3) .list .item img {
+  width: 100%;
+  height: 100%;
+}
+section ul li.s-section:nth-child(3) .list .item .txt {
+  text-align: center;
+}
+section ul li.s-section:nth-child(3) .list .item .txt .title {
+  font-size: 24px;
+  color: #32b3fb;
+  line-height: 2.3;
+}
+section ul li.s-section:nth-child(3) .list .item .txt h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.7;
+}
+section ul li.s-section:nth-child(3) .list .item .txt p {
+  font-size: 14px;
+  line-height: 2.3;
+}
+.item {
+  margin-top: 10px;
+}
